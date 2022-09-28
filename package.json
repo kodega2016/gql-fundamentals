@@ -1,0 +1,19 @@
+{
+  "name": "full-stack-node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.10.2",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6"
+  }
+}
